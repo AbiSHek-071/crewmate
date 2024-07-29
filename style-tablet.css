@@ -1,0 +1,38 @@
+
+    @media(max-width:800px){
+        body{
+            max-width: 800px;
+        }
+        .hideOnMobile{
+            display: none;
+        }
+        .home{
+            background-image: url("./image/ship\ main\ 8x3.png");
+            height: 45vw;
+            width: 100%;
+            background-size: cover
+            
+        }
+        .menubtn{
+            display: block;
+        }
+        .fixed-button {
+            
+            bottom: 40px;
+            right: 20px;
+            padding: 10px 20px;
+            
+        }
+        
+       
+        nav img{
+    
+        }
+        
+      
+        .hold-mob{
+            display: none;
+        }
+        
+    }
+

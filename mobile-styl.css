@@ -1,0 +1,379 @@
+  
+    @media(max-width:600px){
+        body{
+            max-width: 600px;
+            min-width: 300px;
+        }
+        .hideOnMobile{
+            display: none;
+        }
+        
+        .headertext{
+            padding-top: 10vw;
+            padding-left: 2.5vw;
+            padding-bottom: 3vw;
+            
+            
+
+        }
+
+        .headertext h1{
+            font-size: 5.8vw;
+            line-height: 6vw;
+        }
+        .headertext p{
+            margin-top: .1rem;
+            font-size: 2.5vw;
+            
+        }
+        .apply{
+            height:4vw ;
+            width:18vw ;
+            font-size: 2vw;
+        }
+        .contact{
+            height:4vw ;
+            width:18vw ;
+            font-size: 2vw;
+  
+        }
+        .apply-btn{
+            font-size: .55rem;
+            height:1rem ;
+            width:5.5rem ;
+        }
+        .home{
+            background-image: url("./image/ship\ main\ 8x3.png");
+            height: auto;
+            width: 100%;
+            background-size: cover
+            
+        }
+        .menubtn{
+            display: block;
+        }
+        .img-gal{
+            background-image: url("./image/ship800.png");
+            height: 45vh;
+        
+        
+        }
+       
+        nav img{
+            
+            display: block;
+            margin-top: 1vw;
+            margin-left: 4vw;
+            width: 24vw;
+            height: 5vw;
+        }
+        nav{
+            height: 10vw;
+        }
+        .hol{
+            height: 100%% ;
+            width: 25vw;
+        }
+        
+        #imagebar{
+            width: 100%;
+            height: 12%;
+        }
+       
+
+
+        
+        /* ...........prgress............... */
+
+        .progress{
+            
+            grid-template-rows: 1f 1fr 1fr 1fr;
+            grid-template-columns:1fr  ;
+            gap: 10px;
+    
+            
+            width:100%;
+        }
+        .customer{
+            width: 80%;
+            flex-direction: column;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .list{
+            width: 100%;
+            gap: 0;
+            height: auto;
+        }
+        .prog{
+            width: 100%;
+        }
+        .prog1{
+            margin-top: 5vw;
+        }
+        .qbox{
+            height: 25vw;
+            width: 25vw;
+        }
+        .qbox p{
+            font-size:2.3vw;
+            margin-top: 2vw;
+        }
+        #jobno{
+            font-size:10vw ;
+        }
+        #job-txt{
+            font-size:3vw ;
+        }
+        .qbox img{
+            width:9vw ;
+            height:9vw;
+        }
+
+       
+        
+        
+
+        .hold{
+            margin-top: 5%;
+            margin-bottom: 10%;
+        }
+        nav a{
+            
+            height: 50%;
+            font-size: 80%;
+        }
+        
+      
+        .hold{
+            display: none;
+        }
+        
+
+        .hold-mob {
+            margin-top: 2vw;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 3fr;
+            gap: 5vw;
+            justify-content: center; 
+            align-items: center;
+            margin-bottom: 7vw;
+            
+        }
+        
+        .mobq {
+
+            
+            
+            
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr;
+            width: 80%;
+            box-shadow: 5px 5px 27px 2px rgba(102, 97, 97, 0.3);
+            border-radius: 8px;
+            margin: 0 auto;
+            
+        }
+        .mobq-img{
+            margin: 2vw;
+            /* margin-top:2vw; */
+            /* margin-bottom:2vw ; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80%;
+            
+        }
+        .mobq-txt{
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+
+        }
+        .mobq-txt p{
+            margin-top: 2vw;
+            font-family: nav;
+            font-size: 2.7vw;
+            
+        }
+        .mobq-txt h4{
+            font-family: prime-title;
+            font-size: 2.5vw;
+            color: #2d42ac;
+        }
+        .mobq-img img{
+            margin-top: 2vw;
+            height: 12vw;
+            width: 12vw;
+            margin-left: 2px;
+        }
+        .mobq-img h3{
+            margin-top: 1vw;
+            margin-bottom: 1vw;
+            font-size: 10px;
+            font-size:2.5vw;
+            font-family: prime-title;
+            color: #03213c;
+            margin-left: 2px;
+        }
+
+
+        .main-button{
+            width: 10vw;
+            height: 10vw;
+            cursor: none;
+            bottom: 13vw;
+            right: 15vw;
+        }
+        .dropdown-button{
+            width: 10vw;
+            height: 10vw;
+            cursor: none;
+        }
+        .dropdown {
+            bottom: 25vw;
+          
+            right: 14vw;
+        }
+        .main-button.active{
+            
+            width: 10vw;
+            height: 10vw;
+        
+          }
+
+
+    
+    
+    
+    
+    
+        
+    } 
+
+    @media only screen and (max-width: 800px) and (max-height: 500px) {
+        .headertext{
+            margin-top: 1.5rem;
+            margin-left: 1.2rem;
+
+        }
+        .headertext h1{
+            font-size: 1.4rem;
+            line-height: 1.3rem;
+        }
+        .headertext p{
+            margin-top: .1rem;
+            font-size: .5rem;
+            
+        }
+         nav img{
+            
+            display: block;
+            margin-top: .5vw;
+            margin-left: 1vw;
+            width: 9vw;
+            height: 2vw;
+        }
+        .apply{
+            height:1rem ;
+            width:4rem ;
+            font-size: .4rem;
+        }
+        .contact{
+            height:1rem ;
+            width:4rem ; 
+            font-size: .4rem;
+  
+        }
+        .home{
+            background-image: url("./image/ship\ main\ 8x3.png");
+            height: 55vh;
+            width: 100%;
+            background-size: cover
+            
+        }
+        
+        .hold-mob {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 3fr;
+            gap: 5vw;
+            justify-content: center; 
+            align-items: center;
+            margin-bottom: 7vw;
+            
+        }
+        
+        .mobq {
+
+            
+            
+            
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 1fr;
+            width: 80%;
+            box-shadow: 5px 5px 27px 2px rgba(102, 97, 97, 0.3);
+            border-radius: 8px;
+            margin: 0 auto;
+            
+        }
+        .mobq-img{
+            margin: 2vw;
+            /* margin-top:2vw; */
+            /* margin-bottom:2vw ; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 80%;
+            
+        }
+        .mobq-txt{
+            height: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+
+        }
+        .mobq-txt p{
+            margin-top: 2vw;
+            font-family: nav;
+            font-size: 2.7vw;
+            
+        }
+        .mobq-txt h4{
+            font-family: prime-title;
+            font-size: 2.5vw;
+            color: #2d42ac;
+        }
+        .mobq-img img{
+            margin-top: 2vw;
+            height: 12vw;
+            width: 12vw;
+            margin-left: 2px;
+        }
+        .mobq-img h3{
+            margin-top: 1vw;
+            margin-bottom: 1vw;
+            font-size: 10px;
+            font-size:2.5vw;
+            font-family: prime-title;
+            color: #03213c;
+            margin-left: 2px;
+        }
+
+    }
